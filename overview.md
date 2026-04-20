@@ -14,7 +14,7 @@ This workflow automatically detects when an item is created or updated,
 checks whether the **Assigned To** field is populated, and sends an email
 notification to the assigned user.
 
-The automation ensures that ownership changes are immediately visible
+The automation ensures ownership changes are immediately visible
 and actionable without manual intervention.
 
 ### Data Sources
