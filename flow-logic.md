@@ -28,3 +28,17 @@ based on changes in SharePoint data.
   assignments correctly.
 
 ### Notification Action
+- Inside the loop, the workflow sends an email using **Send an email (V2)**.
+- The recipient is the assigned user.
+- The email includes contextual information so the assignee understands
+  what item requires attention.
+
+### Flow Exit
+- Once notifications are sent, the flow completes.
+- If the condition evaluates to false, the flow exits without performing
+  any actions.
+
+### Key Technical Considerations
+- Proper handling of SharePoint Person field arrays
+- Conditional logic to prevent duplicate or unnecessary notifications
+- Event-driven execution aligned with data changes
